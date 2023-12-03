@@ -1,0 +1,14 @@
+[
+    {
+      "order": 1,
+      "image": "img/carousel-1.jpg",
+      "title": "Welcome to Sark Construction",
+      "subtitle": "A Construction & Renovation Company",
+      "services": [
+        "Commercial",
+        "Residential",
+        "Industrial"
+      ],
+      "link": "/"
+    }
+]  
