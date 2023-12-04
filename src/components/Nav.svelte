@@ -7,21 +7,21 @@ import _ from 'lodash'
 
 
 const navLinks = [
-  { title: 'Home', url: 'index.html', isActive: true },
-  { title: 'About Us', url: 'about.html', isActive: false },
+  { title: 'Home', url: '/', isActive: true },
+  { title: 'About Us', url: 'about', isActive: false },
   { title: 'Projects', url: 'service.html', isActive: false },
   {
     title: 'Our Services',
     url: '/',
     isDropdown: true,
     children: [
-      { title: 'House Construction', url: '/', isActive: false },
-      { title: 'Commercial Construction', url: '/', isActive: false },
-      { title: 'Govt Plan Approvals', url: '/', isActive: false },
-      { title: 'Structural Design And Detailing', url: '/', isActive: false },
-      { title: 'Budgeting And Costing', url: '/', isActive: false },
-	  { title: 'Construction Consulting Services', url: '/', isActive: false },
-	  { title: 'Joint Venture', url: '/', isActive: false }
+      { title: 'House Construction', url: 'house-construction', isActive: false },
+      { title: 'Commercial Construction', url: 'commercial-construction', isActive: false },
+      { title: 'Govt Plan Approvals', url: 'govt-plan-approvals', isActive: false },
+      { title: 'Structural Design And Detailing', url: 'structural-design-and-detailing', isActive: false },
+      { title: 'Budgeting And Costing', url: 'budgeting-and-costing', isActive: false },
+	  { title: 'Construction Consulting Services', url: 'construction-consulting-services', isActive: false },
+	  { title: 'Joint Venture', url: 'joint-venture', isActive: false }
     ]
   },
   { title: 'Careers', url: 'service.html', isActive: false },
@@ -79,7 +79,7 @@ const sortedNavLinks = _.sortBy(navLinks, function (navLink) {
           ><i class="fab fa-facebook-f"></i></a
         >
         <a class="btn btn-square border-end" href="/"
-          ><i class="fab fa-twitter"></i></a
+          ><i class="fab fa-whatsapp"></i></a
         >
         <a class="btn btn-square border-end" href="/"
           ><i class="fab fa-linkedin-in"></i></a
@@ -95,7 +95,7 @@ const sortedNavLinks = _.sortBy(navLinks, function (navLink) {
 <nav
   class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
 >
-  <a href="index.html" class="navbar-brand d-flex align-items-center">
+  <a href="/" class="navbar-brand d-flex align-items-center">
     <h1 class="m-0">
       <img class="logo-sk" src="img/Sark-black.svg"  alt="" srcset="">
     </h1>

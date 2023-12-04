@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.9eded4cb.js"
+    "main": "client.314ef861.js"
   },
   "css": {
     "main": [
@@ -11,21 +11,64 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.c982f686.js",
+      "index.d72be497.js",
       "inject_styles.5607aec6.js",
       "index-282ac5f4.css"
     ],
+    "construction-consulting-services.svelte": [
+      "construction-consulting-services.8579864c.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css",
+      "construction-consulting-services-59a95a87.css"
+    ],
+    "structural-design-and-detailing.svelte": [
+      "structural-design-and-detailing.03e40618.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
+    "commercial-construction.svelte": [
+      "commercial-construction.bb7020bb.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
+    "budgeting-and-costing.svelte": [
+      "budgeting-and-costing.240ff56a.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
+    "govt-plan-approvals.svelte": [
+      "govt-plan-approvals.4c55711a.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
+    "house-construction.svelte": [
+      "house-construction.a06a74e3.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
+    "joint-venture.svelte": [
+      "joint-venture.2fd16f2f.js",
+      "Cta.9266c54d.js",
+      "inject_styles.5607aec6.js",
+      "Cta-59448923.css"
+    ],
     "about.svelte": [
-      "about.75796671.js",
+      "about.eb9553d1.js",
       "inject_styles.5607aec6.js"
     ],
     "blog/index.svelte": [
-      "index.87b6f044.js",
+      "index.fd834bb4.js",
       "inject_styles.5607aec6.js",
       "index-7ed37c94.css"
     ],
     "blog/[slug].svelte": [
-      "_slug_.54822ca1.js",
+      "_slug_.fe3238c4.js",
       "inject_styles.5607aec6.js",
       "_slug_-5bc8f95f.css"
     ]
